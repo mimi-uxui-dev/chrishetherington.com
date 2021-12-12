@@ -1720,12 +1720,21 @@ input, select, textarea {
 
 		.text0 {
 			position: absolute;
-			bottom: 0;
+			top: 0;
+			height: 100%;
 			left: 0;
 			padding: 1rem 0.7rem;
 			display: none;
+			width: 100%;
 		}
 
+		.text00 {
+			padding-bottom: .8rem;
+			position: absolute;
+			bottom: 0;
+			width: 100%;
+		}
+		
 		.well0 img {
 			filter: grayscale(0.8) !important;
 			z-index: 1;
@@ -1739,10 +1748,14 @@ input, select, textarea {
 			filter: grayscale(0) !important;
 			cursor: pointer;
 			transition: all ease .5s;
-
+			
 		}
-
+		
 		.well0:hover .text0 {
+			background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(0,0,0,0.7) 80%, rgba(0,0,0,.5) 100%);
 			display: block !important;
 			transition: all ease .5s;
+			
 		}
+
+
