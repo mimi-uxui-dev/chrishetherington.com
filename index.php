@@ -56,6 +56,19 @@ Chris Hetherington
 	<!-- Masonary style effect -->
 	<script src="assets/js/masonry.pkgd.min.js"></script>
 
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+
+	<!-- LightBox -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.js.map"></script>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css"
+		integrity="sha512-Velp0ebMKjcd9RiCoaHhLXkR1sFoCCWXNp6w4zj1hfMifYB5441C+sKeBl/T/Ka6NjBiRfBBQRaQq65ekYz3UQ=="
+		crossorigin="anonymous" referrerpolicy="no-referrer" />
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.min.js"
+		integrity="sha512-Y2IiVZeaBwXG1wSV7f13plqlmFOx8MdjuHyYFVoYzhyRr3nH/NMDjTBSswijzADdNzMyWNetbLMfOpIPl6Cv9g=="
+		crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+
 </head>
 
 <body class="is-preload">
@@ -111,14 +124,13 @@ Chris Hetherington
 					the poor writing and possible spelling mistakes. If you enjoy this lets get a drink! </p>
 			</article>
 
-
 			<!-- Work -->
 			<article id="work">
 				<h2 class="major">Work</h2>
 
 				<div class="row0">
 					<div class="item0">
-						<div class="well0">
+						<div class="well0" data-toggle="lightbox">
 							<img style="max-width:100%; width: 100%; height: 100%;"
 								src="https://placeimg.com/230/230/any?t=1639168274419" class="img-fluid" alt="">
 							<div class="text0">
